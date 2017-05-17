@@ -22,5 +22,12 @@
 # 示例
 
 import urllib.request
-
 # define header
+# http_header = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0'}
+# url = "https://www.baidu.com/"
+# # define request
+# htt_requset = urllib.request.Request(url,headers=http_header)
+# http_response = urllib.request.urlopen(htt_requset)
+# # print(type(http_response))
+# print(http_response.read().decode('utf-8'))
+# print('hello world')
