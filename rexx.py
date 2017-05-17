@@ -21,7 +21,7 @@
 
 # 示例
 
-import urllib.request
+# import urllib.request
 # define header
 # http_header = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0'}
 # url = "https://www.baidu.com/"
@@ -31,3 +31,9 @@ import urllib.request
 # # print(type(http_response))
 # print(http_response.read().decode('utf-8'))
 # print('hello world')
+
+#tornado
+import tornado.httpclient
+http_header = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; rv:53.0) Gecko/20100101 Firefox/53.0'}
+url = "https://www.baidu.com/"
+htt_requset = urllib.request.Request(url,headers=http_header)
